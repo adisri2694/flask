@@ -67,7 +67,7 @@ git clone [https://github.com/adisri2694/flask.git](https://github.com/adisri269
 
 **STEPS TO RUN POSTMAN AND GET RESPONSE FROM THE SERVER :**
 
-- Open Postman tool and click on NEW ---\&gt; Request. Write a request name and click on &quot;Save to flask&quot;.
+- Open Postman tool and click on NEW ---> Request. Write a request name and click on &quot;Save to flask&quot;.
 
 - Choose HTTP methods depending upon the interaction you demand.
 
