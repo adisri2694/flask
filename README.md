@@ -77,7 +77,7 @@ $ git clone [https://github.com/adisri2694/flask.git](https://github.com/adisri2
 
 **DELETE** - /word/\&lt;word\&gt; : Deletes the word.
 
-- Enter request URL :    [http://127.0.0.1:3000/word/](http://127.0.0.1:3000/word/)<word>  and click on &quot;send&quot;.
+- Enter request URL :  copy the url server is running on and add “/word/<word>” at the end <word> represents the parameter and click on “send”.
 - Response of the api will come in the &quot;body&quot;.
 
 - Below is a link of Collection named &quot; **flask**&quot;. This contains 5 flask requests showcasing all the above interactions with the server.
