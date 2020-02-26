@@ -52,6 +52,6 @@ def func(word):
 
 if (__name__ == "__main__"):
 	try:
-		app.run(port = 4000)                                           #port on which the server will run
+		app.run(port = 3000)                                           #port on which the server will run
 	except:
 		print ("run on different port")
