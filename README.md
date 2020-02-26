@@ -12,37 +12,37 @@ A flask api using an in-memory data structure (dictionary) to store the count of
 
 - Before you start, make sure you have python3.6 installed and, if not follow:
 
-sudo add-apt-repository ppa:jonathonf/python-3.6
+$ sudo add-apt-repository ppa:jonathonf/python-3.6
 
-sudo apt-get update
+$ sudo apt-get update
 
-sudo apt-get install python3.6
+$ sudo apt-get install python3.6
 
 - After that create virtual environment with \*Python3.6\* and activate it
 
  Install virtual environment :
 
-sudo apt-get install python-virtualenv
+$ sudo apt-get install python-virtualenv
 
 Install pip  so that we can install further packages using pip :
 
-sudo apt-get install python-pip
+$ sudo apt-get install python-pip
 
 Make new environment :
 
-virtualenv --python=python3.6 flask-env
+$ virtualenv --python=python3.6 flask-env
 
 Activate environment :
 
-source flask-env/bin/activate
+$ source flask-env/bin/activate
 
 - Install flask using pip :
 
- Pip install flask
+ $ Pip install flask
 
 - Install postman using snap package or download from ubuntu software centre
 
-sudo snap install postman
+$ sudo snap install postman
 
 
 
@@ -50,16 +50,16 @@ sudo snap install postman
 
 - Clone the  repository :
 
-git clone [https://github.com/adisri2694/flask.git](https://github.com/adisri2694/flask.git)   in terminal or download the zip file.
+$ git clone [https://github.com/adisri2694/flask.git](https://github.com/adisri2694/flask.git)   in terminal or download the zip file.
 
 - Save flask1.py file to any location and open terminal  in that location.
 - Activate your virtual environment :
 
- source flask-env/bin/activate
+ $ source flask-env/bin/activate
 
 - Run flask1.py file :
 
- python flask1.py
+ $ python flask1.py
 
  Server will start running on port 3000, output on flask
 
@@ -77,7 +77,7 @@ git clone [https://github.com/adisri2694/flask.git](https://github.com/adisri269
 
 **DELETE** - /word/\&lt;word\&gt; : Deletes the word.
 
-- Enter request URL :    [http://127.0.0.1:3000/word/](http://127.0.0.1:3000/word/)\&lt;word\&gt;  and click on &quot;send&quot;.
+- Enter request URL :    [http://127.0.0.1:3000/word/](http://127.0.0.1:3000/word/)<word>  and click on &quot;send&quot;.
 - Response of the api will come in the &quot;body&quot;.
 
 - Below is a link of Collection named &quot; **flask**&quot;. This contains 5 flask requests showcasing all the above interactions with the server.
