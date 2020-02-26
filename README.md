@@ -71,13 +71,13 @@ $ git clone [https://github.com/adisri2694/flask.git](https://github.com/adisri2
 
 - Choose HTTP methods depending upon the interaction you demand.
 
-**POST** - /word/\&lt;word\&gt; : Adds a word if not present. If the word is already present, increase the count by one.
+**POST** - /word/parameter : Adds a word if not present. If the word is already present, increase the count by one.
 
-**GET** - /word/\&lt;word\&gt; : Returns the count of the word.
+**GET** - /word/parameter : Returns the count of the word.
 
-**DELETE** - /word/\&lt;word\&gt; : Deletes the word.
+**DELETE** - /word/paramter : Deletes the word.
 
-- Enter request URL :  copy the url server is running on and add “/word/<word>” at the end <word> represents the parameter and click on “send”.
+- Enter request URL :  copy the url server is running on and add “/word/parameter” at the end, parameter represents the parameter and click on “send”.
 - Response of the api will come in the &quot;body&quot;.
 
 - Below is a link of Collection named &quot; **flask**&quot;. This contains 5 flask requests showcasing all the above interactions with the server.
